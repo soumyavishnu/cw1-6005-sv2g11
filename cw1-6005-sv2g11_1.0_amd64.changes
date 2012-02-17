@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 14 Feb 2012 12:30:38 +0000
+Source: cw1-6005-sv2g11
+Binary: cw1-6005-sv2g11
+Architecture: source amd64
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: sv2g11 <sv2g11@soton.ac.uk>
+Changed-By: sv2g11 <sv2g11@soton.ac.uk>
+Description: 
+ cw1-6005-sv2g11 - <info 6005 coursework>
+Changes: 
+ cw1-6005-sv2g11 (1.0) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 86f231e34633281fb8b9aa2d86a28cd8af64b2a9 542 cw1-6005-sv2g11_1.0.dsc
+ 3782ad2d730f846603cf3a8d6ef68b79efb02244 14394 cw1-6005-sv2g11_1.0.tar.gz
+ 957a1cb44dc969fe994fc00d0a50c108b205ee1a 5474 cw1-6005-sv2g11_1.0_amd64.deb
+Checksums-Sha256: 
+ 3fce68242d0509615c7d782be83a694856ed9607eb3f6446b196618589cd32d1 542 cw1-6005-sv2g11_1.0.dsc
+ a6fe605355b2fefab8658f8dba1086b6bd6256c625ad8e168d91f9d5254a2f08 14394 cw1-6005-sv2g11_1.0.tar.gz
+ 11909ec4bdf46f5b9b39722aceb89ed072cb598d540a88e1c9dad6ac9b6da80e 5474 cw1-6005-sv2g11_1.0_amd64.deb
+Files: 
+ 2a01fd8c82fd70778ff423fcdb35b95c 542 misc extra cw1-6005-sv2g11_1.0.dsc
+ 73aa42df28e143da46bd0a9fb13d4afd 14394 misc extra cw1-6005-sv2g11_1.0.tar.gz
+ eb5291483ef01350498e0b574b488212 5474 misc extra cw1-6005-sv2g11_1.0_amd64.deb

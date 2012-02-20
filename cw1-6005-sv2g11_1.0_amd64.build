@@ -6,7 +6,7 @@ dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
 dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): -Wl,-Bsymbolic-functions
 dpkg-buildpackage: source package cw1-6005-sv2g11
 dpkg-buildpackage: source version 1.0
-dpkg-buildpackage: source changed by sv2g11 <sv2g11@soton.ac.uk>
+dpkg-buildpackage: source changed by Soumya Vishnumohan <sv2g11@soton.ac.uk>
  dpkg-source --before-build cw1-6005-sv2g11-1.0
 dpkg-buildpackage: host architecture amd64
  fakeroot debian/rules clean
@@ -76,26 +76,22 @@ dpkg-genchanges: including full source code in upload
  dpkg-source --after-build cw1-6005-sv2g11-1.0
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
 Now running lintian...
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postinst.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/menu.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-install.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.cron.d.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-remove.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.sgml.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/prerm.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postinst.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/menu.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postrm.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.1.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-startup.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.doc-base.EX
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/init.d.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.xml.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.default.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/prerm.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/init.d.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/watch.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.doc-base.EX
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.cron.d.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.1.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-startup.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/preinst.ex
-W: cw1-6005-sv2g11 source: maintainer-not-full-name sv2g11
-W: cw1-6005-sv2g11 source: superfluous-clutter-in-homepage <https://github.com/info6005/6005_cw1_2012>
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-install.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/watch.ex
+W: cw1-6005-sv2g11 source: vcs-field-uses-unknown-uri-format vcs-git git@github.com:soumyavishnu/cw1-6005-sv2g11.git
 W: cw1-6005-sv2g11 source: out-of-date-standards-version 3.8.4 (current is 3.9.1)
-W: cw1-6005-sv2g11: maintainer-not-full-name sv2g11
-W: cw1-6005-sv2g11: superfluous-clutter-in-homepage <https://github.com/info6005/6005_cw1_2012>
-W: cw1-6005-sv2g11: readme-debian-contains-debmake-template
 Finished running lintian.

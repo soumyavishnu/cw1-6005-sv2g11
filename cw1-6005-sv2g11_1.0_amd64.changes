@@ -6,8 +6,8 @@ Architecture: source amd64
 Version: 1.0
 Distribution: unstable
 Urgency: low
-Maintainer: sv2g11 <sv2g11@soton.ac.uk>
-Changed-By: sv2g11 <sv2g11@soton.ac.uk>
+Maintainer: Soumya Vishnumohan <sv2g11@soton.ac.uk>
+Changed-By: Soumya Vishnumohan <sv2g11@soton.ac.uk>
 Description: 
  cw1-6005-sv2g11 - <info 6005 coursework>
 Changes: 
@@ -15,14 +15,14 @@ Changes:
  .
    * Initial Release.
 Checksums-Sha1: 
- 86f231e34633281fb8b9aa2d86a28cd8af64b2a9 542 cw1-6005-sv2g11_1.0.dsc
- 3782ad2d730f846603cf3a8d6ef68b79efb02244 14394 cw1-6005-sv2g11_1.0.tar.gz
- 957a1cb44dc969fe994fc00d0a50c108b205ee1a 5474 cw1-6005-sv2g11_1.0_amd64.deb
+ 470cc10cf1d08e00c6eb13e19f980df5ff47d77a 609 cw1-6005-sv2g11_1.0.dsc
+ 5135a94ac3a426ce0af6b2b0f81d418db6466266 14225 cw1-6005-sv2g11_1.0.tar.gz
+ f560af47e862c2f0c7f18e505ce954892dcd0e8c 5504 cw1-6005-sv2g11_1.0_amd64.deb
 Checksums-Sha256: 
- 3fce68242d0509615c7d782be83a694856ed9607eb3f6446b196618589cd32d1 542 cw1-6005-sv2g11_1.0.dsc
- a6fe605355b2fefab8658f8dba1086b6bd6256c625ad8e168d91f9d5254a2f08 14394 cw1-6005-sv2g11_1.0.tar.gz
- 11909ec4bdf46f5b9b39722aceb89ed072cb598d540a88e1c9dad6ac9b6da80e 5474 cw1-6005-sv2g11_1.0_amd64.deb
+ 123e7e784e743c6e05a12ce9d4eb7cc06467f3a503bb1771b36fa8447f9bc522 609 cw1-6005-sv2g11_1.0.dsc
+ b5ccfa3a7e4a2fc95773559283527f6261653312642d86148ab470e41f8c95a3 14225 cw1-6005-sv2g11_1.0.tar.gz
+ fb994e530f32649d6e216616cfb2f0ecd3b87f35acc34429bcad5730bf9e13e2 5504 cw1-6005-sv2g11_1.0_amd64.deb
 Files: 
- 2a01fd8c82fd70778ff423fcdb35b95c 542 misc extra cw1-6005-sv2g11_1.0.dsc
- 73aa42df28e143da46bd0a9fb13d4afd 14394 misc extra cw1-6005-sv2g11_1.0.tar.gz
- eb5291483ef01350498e0b574b488212 5474 misc extra cw1-6005-sv2g11_1.0_amd64.deb
+ 449aae4faa130c0f1009119e298fe4b2 609 misc extra cw1-6005-sv2g11_1.0.dsc
+ 2a2c8886ca86e4a416c419fd2ca92dbf 14225 misc extra cw1-6005-sv2g11_1.0.tar.gz
+ 047f2d62bc4d9dbb8a5c9551524fdd57 5504 misc extra cw1-6005-sv2g11_1.0_amd64.deb

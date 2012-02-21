@@ -76,22 +76,22 @@ dpkg-genchanges: including full source code in upload
  dpkg-source --after-build cw1-6005-sv2g11-1.0
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
 Now running lintian...
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-remove.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.sgml.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/prerm.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postinst.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/menu.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postrm.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/init.d.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.xml.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.default.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.doc-base.EX
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.cron.d.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.1.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-startup.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/preinst.ex
-W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-install.ex
 W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/watch.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.xml.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.1.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/manpage.sgml.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.doc-base.EX
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.default.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/menu.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-install.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-remove.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/preinst.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/prerm.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postrm.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/postinst.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/init.d.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/emacsen-startup.ex
+W: cw1-6005-sv2g11 source: dh-make-template-in-source debian/cw1-6005-sv2g11.cron.d.ex
 W: cw1-6005-sv2g11 source: vcs-field-uses-unknown-uri-format vcs-git git@github.com:soumyavishnu/cw1-6005-sv2g11.git
 W: cw1-6005-sv2g11 source: out-of-date-standards-version 3.8.4 (current is 3.9.1)
 Finished running lintian.

@@ -10,7 +10,7 @@ Vcs-Git: git@github.com:soumyavishnu/cw1-6005-sv2g11.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/cw1-6005-sv2g11.git;a=summary
 
 Package: cw1-6005-sv2g11
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <info 6005 coursework>
  <coursework description>

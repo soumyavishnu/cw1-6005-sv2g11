@@ -9,8 +9,8 @@ Standards-Version: 3.8.4
 Vcs-Git: git@github.com:soumyavishnu/cw1-6005-sv2g11.git
 Build-Depends: debhelper (>= 7.0.50~)
 Checksums-Sha1: 
- 5135a94ac3a426ce0af6b2b0f81d418db6466266 14225 cw1-6005-sv2g11_1.0.tar.gz
+ abbc0eef34fa7645a93c88ca513ad3492cb0abbc 15529 cw1-6005-sv2g11_1.0.tar.gz
 Checksums-Sha256: 
- b5ccfa3a7e4a2fc95773559283527f6261653312642d86148ab470e41f8c95a3 14225 cw1-6005-sv2g11_1.0.tar.gz
+ 131f1fb4f5116bbe9d8356bb3f23b17d5a274d2b3fe8201a9dd0c6193f2d3abe 15529 cw1-6005-sv2g11_1.0.tar.gz
 Files: 
- 2a2c8886ca86e4a416c419fd2ca92dbf 14225 cw1-6005-sv2g11_1.0.tar.gz
+ 5792d46951f06d873a7a544d633f9160 15529 cw1-6005-sv2g11_1.0.tar.gz

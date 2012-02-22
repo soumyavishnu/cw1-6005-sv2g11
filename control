@@ -5,12 +5,12 @@ Maintainer: Soumya Vishnumohan <sv2g11@soton.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Homepage: https://github.com/info6005/6005_cw1_2012
-Vcs-Git: git@github.com:soumyavishnu/cw1-6005-sv2g11.git
+#Vcs-Git: git@github.com:soumyavishnu/cw1-6005-sv2g11.git
 #Vcs-Git: git://git.debian.org/collab-maint/cw1-6005-sv2g11.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/cw1-6005-sv2g11.git;a=summary
 
 Package: cw1-6005-sv2g11
-Architecture: all
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <info 6005 coursework>
  <coursework description>

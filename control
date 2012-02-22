@@ -11,6 +11,6 @@ Homepage: https://github.com/info6005/6005_cw1_2012
 
 Package: cw1-6005-sv2g11
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, php5-cli
 Description: <info 6005 coursework>
  <coursework description>
